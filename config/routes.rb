@@ -1,4 +1,5 @@
 Monittest::Application.routes.draw do
+  resources :feeds
   resources :lists
 
 
@@ -51,7 +52,7 @@ Monittest::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'lists#index'
+  root :to => 'feeds#index'
 
   # See how all your routes lay out with "rake routes"
 

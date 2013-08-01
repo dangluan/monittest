@@ -11,7 +11,8 @@ gem "paperclip", "~> 3.0"
 gem 'thin'
 gem 'unicorn'
 gem 'delayed_job_active_record', '0.3.2'
-
+gem 'feedzirra'
+gem 'pismo'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
